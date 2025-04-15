@@ -75,3 +75,18 @@ input::placeholder {
     color: var(--text-secundary);
     opacity: 0.7;
 }
+
+.forgot-password a {
+    color: var(--text-secundary);
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
